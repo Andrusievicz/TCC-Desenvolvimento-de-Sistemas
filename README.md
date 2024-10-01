@@ -4,4 +4,4 @@ Trabaho de conclusão de curso de técnico em desenvolvimento de sistemas do Sen
 
 O projeto fica na pasta "SeuProjeto" feito no visual studio 2022
 
-Projeto ainda não concluido, em processo de conclusão
+Projeto ainda não concluido, em processo de conclusão.
