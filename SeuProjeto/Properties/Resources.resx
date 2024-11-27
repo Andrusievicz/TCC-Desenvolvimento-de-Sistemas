@@ -118,7 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Cronograma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cronograma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="backlog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backlog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackThai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackThai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alecrim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alecrim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boxeback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boxeback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backreg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backreg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back.sobre1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.sobre1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackMusculation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackMusculation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackPilatesAtualizado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackPilatesAtualizado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backlogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backlogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackCross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackCross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back.versao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.versao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginBemSucedido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoginBemSucedido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backimgyoga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backimgyoga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnmnr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnmnr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back.ctt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.ctt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back.lgpd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.lgpd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backzumba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backzumba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormAtividade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormAtividade1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backcapoeira" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backcapoeira.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu shape atualizado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu shape atualizado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back.clientearea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.clientearea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backspinning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backspinning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backcronograma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backcronograma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
