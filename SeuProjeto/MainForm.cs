@@ -16,20 +16,21 @@ namespace SeuProjeto
         {
             InitializeComponent();
         }
-
+        //botao de registro
         private void BtnRegister_Click(object sender, EventArgs e)
         {
             var registerForm = new RegisterForm();
             registerForm.Show();
             this.Hide();
         }
-
+        //botao de login
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             var loginForm = new LoginForm();
             loginForm.Show();
             this.Hide();
         }
+        //botao de sair
         private void BtnExit_Click(object sender, EventArgs e)
         {
             Application.Exit(); // Fecha a aplicação inteira

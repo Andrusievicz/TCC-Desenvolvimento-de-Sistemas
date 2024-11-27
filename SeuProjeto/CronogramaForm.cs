@@ -12,9 +12,10 @@ namespace SeuProjeto
 {
     public partial class CronogramaForm : Form
     {
+        private string cpfUsuarioLogado;
         public CronogramaForm()
         {
-            InitializeComponent();
+            InitializeComponent();           
         }
 
         private void BtnCronoBack_Click(object sender, EventArgs e)

@@ -104,17 +104,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaDoClienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaDoClienteForm.Designer.cs">
+      <DependentUpon>AreaDoClienteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtividadeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtividadeForm.Designer.cs">
+      <DependentUpon>AtividadeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoxeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxeForm.Designer.cs">
+      <DependentUpon>BoxeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPFouSenhaInvalidoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPFouSenhaInvalidoForm.Designer.cs">
+      <DependentUpon>CPFouSenhaInvalidoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CronogramaForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CronogramaForm.Designer.cs">
       <DependentUpon>CronogramaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrossFitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrossFitForm.Designer.cs">
+      <DependentUpon>CrossFitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapoeiraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapoeiraForm.Designer.cs">
+      <DependentUpon>CapoeiraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaleForm.Designer.cs">
+      <DependentUpon>FaleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LGPDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LGPDForm.Designer.cs">
+      <DependentUpon>LGPDForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSucedidoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginSucedidoForm.Designer.cs">
+      <DependentUpon>LoginSucedidoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -128,6 +182,24 @@
     <Compile Include="MainMenuForm.Designer.cs">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MuayThaiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuayThaiForm.Designer.cs">
+      <DependentUpon>MuayThaiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusculacaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusculacaoForm.Designer.cs">
+      <DependentUpon>MusculacaoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PilatesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PilatesForm.Designer.cs">
+      <DependentUpon>PilatesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterForm.cs">
@@ -136,11 +208,84 @@
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SobreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SobreForm.Designer.cs">
+      <DependentUpon>SobreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpinningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpinningForm.Designer.cs">
+      <DependentUpon>SpinningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs" />
+    <Compile Include="VersaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VersaoForm.Designer.cs">
+      <DependentUpon>VersaoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YogaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YogaForm.Designer.cs">
+      <DependentUpon>YogaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZumbaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZumbaForm.Designer.cs">
+      <DependentUpon>ZumbaForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AreaDoClienteForm.resx">
+      <DependentUpon>AreaDoClienteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtividadeForm.resx">
+      <DependentUpon>AtividadeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxeForm.resx">
+      <DependentUpon>BoxeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPFouSenhaInvalidoForm.resx">
+      <DependentUpon>CPFouSenhaInvalidoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CronogramaForm.resx">
       <DependentUpon>CronogramaForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrossFitForm.resx">
+      <DependentUpon>CrossFitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapoeiraForm.resx">
+      <DependentUpon>CapoeiraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaleForm.resx">
+      <DependentUpon>FaleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LGPDForm.resx">
+      <DependentUpon>LGPDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginSucedidoForm.resx">
+      <DependentUpon>LoginSucedidoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuayThaiForm.resx">
+      <DependentUpon>MuayThaiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusculacaoForm.resx">
+      <DependentUpon>MusculacaoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PilatesForm.resx">
+      <DependentUpon>PilatesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -152,6 +297,24 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SobreForm.resx">
+      <DependentUpon>SobreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpinningForm.resx">
+      <DependentUpon>SpinningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersaoForm.resx">
+      <DependentUpon>VersaoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YogaForm.resx">
+      <DependentUpon>YogaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZumbaForm.resx">
+      <DependentUpon>ZumbaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -167,7 +330,92 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cronograma.jpg" />
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backlog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backreg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alecrim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackCross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackThai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backspinning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backimgyoga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackPilatesAtualizado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackMusculation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backcapoeira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu shape atualizado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backzumba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginBemSucedido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxeback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormAtividade1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.clientearea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnmnr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.sobre1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.lgpd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.versao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.ctt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backcronograma.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

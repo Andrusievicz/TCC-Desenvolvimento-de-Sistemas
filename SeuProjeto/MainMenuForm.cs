@@ -5,36 +5,34 @@ namespace SeuProjeto
 {
     public partial class MainMenuForm : Form
     {
+        private string cpfUsuarioLogado;
         public MainMenuForm()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
-
         private void BtnCronograma_Click(object sender, EventArgs e)
         {
             var cronoForm = new CronogramaForm();
             cronoForm.Show();
             this.Close();
         }
-
-        private void BtnRegistrarAula_Click(object sender, EventArgs e)
+        private void BtnAtividade_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Funcionalidade Registrar Aula.");
+            var atividadeForm = new AtividadeForm();
+            atividadeForm.Show();
+            this.Close();
         }
-
-        private void BtnAgenda_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Funcionalidade Agenda.");
-        }
-
         private void BtnInfoUsuario_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Funcionalidade Informações do Usuário.");
+            var areadoclienteForm = new AreaDoClienteForm();
+            areadoclienteForm.Show();
+            this.Close();
         }
-
         private void BtnSobre_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Funcionalidade Sobre.");
+            var sobreForm = new SobreForm();
+            sobreForm.Show();
+            this.Close();
         }
         private void BtnLogout_Click(object sender, EventArgs e)
         {
@@ -43,5 +41,6 @@ namespace SeuProjeto
             mainForm.Show();
             this.Close();
         }
+
     }
 }
